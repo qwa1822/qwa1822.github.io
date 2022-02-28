@@ -1,0 +1,160 @@
+body{
+    height:110vh;
+    border:3px solid pink;
+    box-shadow:-3px -3px pink;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.all{
+    margin-left:50px;
+}
+
+.header{
+display:flex;
+justify-content: space-around;
+margin-top:60px;
+
+}
+.header i{
+    font-size:32px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.icon-menu{
+    
+    display:flex;
+    justify-content: center;
+    border:1px solid pink;
+    align-items: center;
+    width:250px;
+    height:50px;
+    border-radius:10px;
+    background-color: pink;
+    box-shadow:3px 3px pink;
+    color:white;
+}
+.fa-music{
+    padding:0px 20px;
+}
+.header span{
+    display:flex;
+    justify-content: center;
+    font-size:32px;
+    font-weight:700;
+    box-shadow:0px 2px black;
+    width:75%;
+}
+.content{
+    margin-top:50px;
+    display:flex;
+    align-items:center;
+}
+.blackpink{
+    width:200px;
+    height:200px;
+    border:3px solid pink;
+    box-shadow:2px 2px pink;
+    margin-right:15px;
+    border-radius:20px;
+}
+.content-title{
+    margin-top:-60px;
+    line-height:1.5;
+}
+.content-title h2{
+    font-size:32px;
+    opacity: 0.7;
+}
+.content-title span{
+    font-size:20px;
+    color:rgb(211, 154, 164);
+    box-shadow:0px 5px pink;
+    opacity: 0.6;
+}
+
+.menu-bar{
+    margin-top:30px;
+
+    display:flex;
+    justify-content: space-around;
+}
+.menu-bar i{
+    border:2px solid pink;
+    width:50px;
+    height:50px;
+    color:rgb(233, 147, 161);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:5px;
+    margin-right:50px;
+}
+.menu-bar i:first-child{
+    width:200px;
+    height:70px;
+    box-shadow:0px 5px pink;
+}
+.menu-bar i:nth-child(2),
+.menu-bar i:last-child{
+    width:60px;
+    height:70px;
+    border-radius:50%;
+    box-shadow:0px 5px pink;
+}
+.menu-bar span{
+    margin-left:10px;
+}
+
+.blackpink2{
+    width:80px;
+    height:80px;
+    border-radius:20px;
+    margin-right:10px;
+    border:2px solid pink;
+    box-shadow:1px 1px pink;
+}
+.blackpink2-sm{
+    border:2px solid black;
+    box-shadow:1px 1px black;
+
+}
+.blackpink2-yellow{
+    border:2px solid yellow;
+    box-shadow:1px 1px rgb(141, 141, 63);
+}
+.footer{
+    display:flex;
+    flex-direction: column;
+}
+.footer-menu{
+    display:flex;
+    
+    align-items: center;
+    margin-top:20px;
+}
+.footer-title{
+    display:flex;
+    flex-direction: column;
+    line-height:0.5;
+    margin-top:-20px;
+}
+.footer-title h2{
+    font-size:24px;
+    font-weight:600;
+}
+
+.footer-title span{
+    margin-top:5px;
+    font-size:18px;
+    font-weight:600;
+    opacity: 0.4;
+}
+.footer2{
+    display:flex;
+}
+.footer2-menu{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
